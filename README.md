@@ -1,5 +1,7 @@
 # meme-generator
 
+Quick Vue app using Konva
+
 ## Project setup
 ```
 npm install
