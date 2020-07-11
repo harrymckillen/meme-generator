@@ -4,3 +4,29 @@ body {
   padding:0;
   margin: 0;
 }
+.flex {
+  display: flex;
+  align-content: space-between;
+}
+.fortypc{
+  width: 40%;
+}
+.fiftypc{
+  width: 50%;
+}
+.sixtypc{
+  width: 60%;
+}
+.full{
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Akbar';
+  src: url('akbar.eot'); /* IE9 Compat Modes */
+  src: url('akbar.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('akbar.woff2') format('woff2'), /* Super Modern Browsers */
+       url('akbar.woff') format('woff'), /* Pretty Modern Browsers */
+       url('akbar.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('akbar.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

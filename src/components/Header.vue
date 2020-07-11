@@ -18,7 +18,7 @@ export default {
   .header {
     display: block;
     padding: 0.2em 1.5em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Akbar', sans-serif;
     text-align: center;
   }
 </style>

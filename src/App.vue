@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header title="Meme Generator"/>
+    <Header v-bind:title="title"/>
     <MemeGen />
-    <Footer text="Sample Meme Generator"/>
+    <Footer v-bind:text="title"/>
   </div>
 </template>
 
@@ -13,6 +13,11 @@ import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
+  data(){
+    return {
+      title: 'Simple Meme Generator'
+    }
+  },
   components: {
     Header,
     MemeGen,

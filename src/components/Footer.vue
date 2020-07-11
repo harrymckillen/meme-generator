@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p>&copy; {{ text }}</p>
+    <p>&copy; {{ text }}, {{currentYear}}</p>
   </div>
 </template>
 
@@ -9,6 +9,11 @@ export default {
   name: 'Footer',
   props: {
     text: String
+  },
+  computed: {
+    currentYear: function () {
+      return new Date().getFullYear();
+    }
   }
 }
 </script>

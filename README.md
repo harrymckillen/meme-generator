@@ -1,4 +1,4 @@
-# meme-generator
+# A quick meme-generator
 
 Quick Vue app using Konva
 
